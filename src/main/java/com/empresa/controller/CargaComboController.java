@@ -22,11 +22,7 @@ public class CargaComboController {
 	private TipoService tipoService;
 	
 	
-	@GetMapping(value = "/listaPais")
-	@ResponseBody
-	public List<Pais> cargaPais(){
-		return paisService.listaPais();
-	}
+	
 	
 	@GetMapping(value = "/listaTipo")
 	@ResponseBody
